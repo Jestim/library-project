@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100wv;
+    height: 100vh;
+}
+
+.page-header {
+    background-color: white;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    margin-top: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.main-header {
+    margin-bottom: 2rem;
+}
+
+.books {
+    border: solid;
+    width: 60vw;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.book {
+    border: solid;
+    padding: 2rem;
+    margin: 0 2rem;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.add-book {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.add-book-form {
+    display: none;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+
+.add-book-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+.remove-button,
+.read-button {
+    margin: 0.25rem 0;
+    padding: 0.5rem 0.75rem;
+}
+
+.hidden {
+    display: none;
+}
